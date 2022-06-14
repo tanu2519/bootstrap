@@ -1,0 +1,168 @@
+.footdesign {
+    background-color: #41464b;
+    color: white;
+}
+.footbackg{background-color: #41464b;}
+.footdesign li a {
+    padding: 0 10px;
+    color: white !important;
+}
+
+.onedv .card {
+    height: 100%;
+    max-height: 524px;
+    min-height: 350px;
+}
+
+.onedvtwo .card {
+    max-height: 250px;
+    min-height: 250px;
+}
+
+.secdv {
+
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 575px) {
+    .onedvtwo {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 576px) {
+
+    .onedvtwo,
+    .onedvone {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cardht {
+        flex-direction: column;
+    }
+
+    .cardht .col {
+        margin-bottom: 18px;
+    }
+    .bgft{width:25%!important;}
+}
+
+@media screen and (max-width: 991px) {
+    .socialcard {
+        margin-top: 22px;
+    }
+}
+
+.bloggrd {
+    margin-top: 50px;
+}
+
+.socialcard .card {
+    height: 100px;
+    margin-bottom: 40px;
+}
+
+.card-img {
+    height: inherit;
+}
+
+.sideimg {
+    height: 100%;
+}
+
+.card {
+    border: unset;
+}
+
+.trendtopic {
+    background-position: center left;
+    background-size: cover;
+    opacity: 0.8;
+    color: white;
+    height: 100%;
+}
+
+.trendtopic a {
+    text-decoration: none;
+}
+
+.trendtopic .txtov {
+    margin-top: 18px;
+}
+
+.colht {
+    margin-bottom: 15px;
+    height: 60px;
+}
+
+.brndlogo {
+    background-size: cover;
+    height: 58px;
+    background-image: url(https://bit.ly/3xLLoeG);
+    width: 75px;
+}
+
+.cardtxt {
+    position: absolute;
+    top: 40%;
+    left: 4%;
+}
+
+@media screen and (min-width: 769px) {
+    .cardht img {
+        height: 265px;
+    }
+}
+
+.mgbt {
+    margin-bottom: 22px;
+}
+
+@media screen and (max-width: 769px) {
+    .cardht .col {
+        width: 100%;
+    }
+    .rcntpst .boxim{width: 33.33%;}
+    .rcntpst .boxtx{width: 66.66%;}
+}
+
+.onedvtwo .card-img-overlay {
+    top: 60%;
+}
+
+.onedvone .card-img-overlay {
+    top: 75%;
+}
+
+.cardtxt a {
+    text-decoration: none;
+}
+
+.alrttext {
+    margin-left: 22px;
+}
+
+.onedvone .cardtxt {
+    top: 70%;
+}
+
+.onedvtwo .card-img {
+    opacity: 0.4;
+}
+
+.onedvone .card-img {
+    opacity: 0.4;
+}
+
+@media screen and (max-width: 450px) {
+.footdesign .stylrw{
+    display: flex;
+    flex-direction: column;}
+
+.footdesign .stylrw .colsb{margin-top: 11px;}
+.footdesign .stylrw .colem {width: 90%;}
+.footdesign .stylrw .coltextf{width: 80%;}
+.footdesign .stylrw .coltextf p{float: left!important;}
+}

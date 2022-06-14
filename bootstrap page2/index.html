@@ -1,0 +1,549 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="mystyle.css">
+
+    
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand brndlogo" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Home
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Pages
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Post
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Lifestyle
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Dashboard</a>
+                    </li>
+                </ul>
+                <div class="d-flex justify-content-end">
+                    <a class="btn btn-sm btn-outline-secondary" href="#">Subscribe</a>
+                    <a class="link-secondary" href="#" aria-label="Search">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-3" role="img"
+                            viewBox="0 0 24 24">
+                            <title>Search</title>
+                            <circle cx="10.5" cy="10.5" r="7.5"></circle>
+                            <path d="M21 21l-5.2-5.2"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="alert alert-primary d-flex align-items-center" role="alert">
+        <span class="badge text-bg-primary ">Trending</span>
+        <div class="alrttext">
+            An example alert with an icon
+        </div>
+
+    </div>
+    <div class="container">
+        <div class="row onedv justify-content-center">
+            <div class="col-sm-3 onedvone">
+                <div class="card bg-dark text-white">
+                    <img src="https://bit.ly/3xsNi2p" class="card-img" alt="...">
+                    <div class="w-100 cardtxt mt-auto">
+                        <a href="#" class="badge bg-info mb-2"><i class="fas fa-circle me-2 small fw-bold"></i>Sports</a>
+                    </div> 
+                    <div class="card-img-overlay">
+                        
+                        <h5 class="card-title fw-bold">Card title </h5>
+                      
+                        <p class="card-text">Last updated 3 mins ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 onedvtwo">
+                <div class="card bg-dark text-white">
+                    <img src="https://bit.ly/3HmNnJJ" class="card-img" alt="...">
+                    <div class="w-100 cardtxt mt-auto">
+                        <a href="#" class="badge bg-success mb-2"><i class="fas fa-circle me-2 small fw-bold"></i>Sports</a>
+                    </div> 
+                    <div class="card-img-overlay">
+                        <h5 class="card-title fw-bold">Card title</h5>
+                   
+                        <p class="card-text">Last updated 3 mins ago</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="row secdv">
+                        <div class="col-6 col-sm-6">
+                            <div class="card bg-dark text-white">
+                                <img src="https://bit.ly/3QdCv4O" class="card-img" alt="...">
+                                <div class="w-100 cardtxt mt-auto">
+                                    <a href="#" class="badge bg-danger mb-2"><i class="fas fa-circle me-2 small fw-bold"></i>Sports</a>
+                                </div> 
+                                <div class="card-img-overlay">
+                                    <h5 class="card-title fw-bold">Card title</h5>
+                                 
+                                    <p class="card-text">Last updated 3 mins ago</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-6">
+                            <div class="card bg-dark text-white">
+                                <img src="https://bit.ly/3OgM1lN" class="card-img" alt="...">
+                                <div class="w-100 cardtxt mt-auto">
+                                    <a href="#" class="badge bg-primary mb-2"><i class="fas fa-circle me-2 small fw-bold"></i>Sports</a>
+                                </div> 
+                                <div class="card-img-overlay">
+                                    <h5 class="card-title fw-bold">Card title</h5>
+                                
+                                    <p class="card-text">Last updated 3 mins ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="container bloggrd">
+        <div class="row">
+
+            <div class="col-lg-9">
+                <div class="mb-4">
+					<h2 class="m-0"><i class="bi bi-hourglass-top me-2"></i>Today's top highlights</h2>
+					<p>Latest breaking news, pictures, videos, and special reports</p>
+				</div>
+                <div class="row row-cols-2 cardht">
+                    <div class="col mgbt">
+                        <div class="card">
+                            <img src="https://bit.ly/3MQhKtd" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title fw-bold">Card title </h4>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mgbt">
+                        <div class="card">
+                            <img src="https://bit.ly/3aNn4A3" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title fw-bold">Card title </h4>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mgbt">
+                        <div class="card">
+                            <img src="https://bit.ly/3OcsYZX" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title fw-bold">Card title </h4>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mgbt">
+                        <div class="card">
+                            <img src="https://bit.ly/3xLBcmq" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title fw-bold">Card title </h4>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mgbt">
+                        <div class="card">
+                            <img src="https://bit.ly/3xXgT5T" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title fw-bold">Card title </h4>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mgbt">
+                        <div class="card">
+                            <img src="https://bit.ly/3xPLQc5" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title fw-bold">Card title </h4>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="container">
+                    <div class="row">
+                      <div class="col socialcard">
+                        <div class="card bg-dark text-white">
+                            <img src="https://bit.ly/3MOiPl6" class="card-img" alt="...">
+                            <div class="card-img-overlay justify-content-center d-flex">
+                              <h5 class="card-title"><i class="bi bi-facebook"></i></h5></div></div>
+                      </div>
+                      <div class="col socialcard">
+                        <div class="card bg-dark text-white">
+                            <img src="https://bit.ly/3tWGr0z" class="card-img" alt="...">
+                            <div class="card-img-overlay justify-content-center d-flex">
+                              <h5 class="card-title"><i class="bi bi-instagram"></i></h5></div></div>
+                      </div>
+                      <div class="col socialcard">
+                        <div class="card bg-dark text-white">
+                            <img src="https://bit.ly/3xqvrJE" class="card-img" alt="...">
+                            <div class="card-img-overlay justify-content-center d-flex">
+                              <h5 class="card-title"><i class="bi bi-youtube"></i></h5></div></div>
+                      </div>
+                    </div>
+                  </div>
+                <div class="container">
+                    <div class="row row-cols-1">
+                        <H4 class="mgbt">Trending topics</H4>
+                        <div class="col colht">
+                            <div class="text-center trendtopic mb-3 card-bg-scale position-relative overflow-hidden rounded"
+                                style="background-image:url(https://bit.ly/39jvpLt);">
+                                <div class="bg-dark-overlay-4 txtov">
+                                    <a href="#" class="stretched-link btn-link h5">Business</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col colht">
+                            <div class="text-center trendtopic mb-3 card-bg-scale position-relative overflow-hidden rounded"
+                                style="background-image:url(https://bit.ly/3xLsdlo);">
+                                <div class="bg-dark-overlay-4 txtov">
+                                    <a href="#" class="stretched-link btn-link h5">Business</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col colht">
+                            <div class="text-center trendtopic mb-3 card-bg-scale position-relative overflow-hidden rounded"
+                                style="background-image:url(https://bit.ly/3Qxtdkz); ">
+                                <div class="bg-dark-overlay-4 txtov">
+                                    <a href="#" class="stretched-link btn-link h5">Business</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col colht">
+                            <div class="text-center trendtopic mb-3 card-bg-scale position-relative overflow-hidden rounded"
+                                style="background-image:url(https://bit.ly/3xMs0OI);">
+                                <div class="bg-dark-overlay-4 txtov">
+                                    <a href="#" class="stretched-link btn-link h5">Business</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col colht">
+                            <div class="text-center trendtopic mb-3 card-bg-scale position-relative overflow-hidden rounded"
+                                style="background-image:url(https://bit.ly/3MODllL);">
+                                <div class="bg-dark-overlay-4 txtov">
+                                    <a href="#" class="stretched-link btn-link h5">Business</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center my-3">
+                        <a href="#" class="fw-bold text-body text-primary-hover"><u>View all categories</u></a>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row rcntpst">
+                        <H4 class="mgbt mt-4">Recent post</H4>
+                        <div class="col-12">
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <div class="col-md-4 boxim">
+                                        <img src="https://bit.ly/3QlhQvB" class="img-fluid sideimg rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8 boxtx">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                    ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <div class="col-md-4 boxim">
+                                        <img src="https://bit.ly/3QlhQvB" class="img-fluid sideimg rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8 boxtx">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                    ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <div class="col-md-4 boxim">
+                                        <img src="https://bit.ly/3QlhQvB" class="img-fluid sideimg rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8 boxtx">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                    ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <div class="col-md-4 boxim">
+                                        <img src="https://bit.ly/3QlhQvB" class="img-fluid sideimg rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8 boxtx">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                    ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <div class="container">
+        <h3 class="fw-semibold my-5"><i class="bi bi-megaphone"></i> Sponsored news</h3>
+
+
+        <div class="row">
+            <div class="col d-flex justify-content-center mb-3">
+                <div class="card" style="width: 15rem;">
+                  
+                    <img src="https://bit.ly/3HlCWGg" class="card-img-top" alt="...">
+                    <div class="w-100 cardtxt mt-auto">
+                        <a href="#" class="badge bg-info mb-2"><i class="fas fa-circle me-2 small fw-bold"></i>Sports</a>
+                    </div> 
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col d-flex justify-content-center mb-3">
+                <div class="card" style="width: 15rem;">
+                    <img src="https://bit.ly/3xOaQjO" class="card-img-top" alt="...">
+                    <div class="w-100 cardtxt mt-auto">
+                        <a href="#" class="badge bg-success mb-2"><i class="fas fa-circle me-2 small fw-bold"></i>Marketing</a>
+                    </div> 
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col d-flex justify-content-center mb-3">
+                <div class="card" style="width: 15rem;">
+                    <img src="https://bit.ly/3HlCWGg" class="card-img-top" alt="...">
+                    <div class="w-100 cardtxt mt-auto">
+                        <a href="#" class="badge bg-danger mb-2"><i class="fas fa-circle me-2 small fw-bold"></i>Sports</a>
+                    </div> 
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col d-flex justify-content-center mb-3">
+                <div class="card" style="width: 15rem;">
+                    <img src="https://bit.ly/3xOaQjO" class="card-img-top" alt="...">
+                    <div class="w-100 cardtxt mt-auto">
+                        <a href="#" class="badge bg-primary mb-2"><i class="fas fa-circle me-2 small fw-bold"></i>Marketing</a>
+                    </div> 
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+   
+    </div>
+    <div class="footbackg">
+    <div class="container footdesign">
+        <div class="row my-4 stylrw" style="padding-top:20px;">
+
+            <div class="col-4 coltextf">
+                <span>
+                    <p style="float: right;">Enter your mail</p>
+                </span>
+            </div>
+            <div class="col-4 colem">
+                <input type="email" class="form-control">
+            </div>
+            <div class="col-4 colsb">
+                <span>
+                    <input class="btn btn-primary" type="submit" value="Subscribe">
+                </span>
+            </div>
+        </div>
+        <HR>
+            
+        <footer class="py-5">
+            <div class="row justify-content-center">
+
+                <div class="col-12 col-md-2 mb-3">
+                    <h5>Section</h5>
+                    <ul class="nav flex-column">
+                        <span class="badge text-bg-danger bgft w-50">Danger</span>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                        <span class="badge text-bg-primary bgft w-50">Primary</span>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-2 mb-3">
+                    <h5>Section</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-2 mb-3">
+                    <h5>Section</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-2 mb-3">
+                    <h5>Section</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-2 mb-3">
+                    <h5>Section</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                    </ul>
+                </div>
+
+
+            </div>
+
+            <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                <p>© 2022 Company, Inc. All rights reserved.</p>
+
+                <ul
+                    class="list-unstyled d-flex nav text-primary-hover text-center text-sm-end justify-content-center justify-content-center mt-3 mt-md-0">
+                    <li class="nav-item"><a class="dropdown-toggle text-primary-hover" href="#" role="button"
+                            id="languageSwitcher" data-bs-toggle="dropdown" aria-expanded="false">
+                            English Edition
+                        </a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Terms</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Privacy</a></li>
+                    <li class="nav-item"><a class="nav-link pe-0" href="#">Cookies</a></li>
+
+                </ul>
+            </div>
+        </footer>
+    </div>
+</div>
+
+</body>
+
+</html>
